@@ -1,0 +1,14 @@
+otazka: Napíšte meno tretej planéty našej slnečnej sústavy
+odpoved: zem
+
+otazka: Napíšte druhý deň v týždni (slovom)
+odpoved: utorok
+
+otazka: Napíšte výsledok dva plus dva (slovom, píšte bez diakritiky)
+odpoved: styri
+
+otazka: Koľko dní ma jeden týždeň (slovom)
+odpoved: sedem
+
+otazka: Má to štyri nohy a robí to mňau, čo je to? (píšte bez diakritiky)
+odpoved: macka

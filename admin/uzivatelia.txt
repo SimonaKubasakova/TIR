@@ -1,0 +1,3 @@
+admin::heslo0
+bencik::heslo1
+janko::heslo2
