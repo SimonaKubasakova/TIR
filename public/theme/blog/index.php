@@ -1,4 +1,5 @@
 <?php 
+	error_reporting(0);
 	date_default_timezone_get('Europe/Bratislava');
 	include '../../assets/hlavicka.php';
 	include '../../assets/navbar.php';
@@ -67,7 +68,7 @@ if(empty($chyba)){
 ?>	
 
 <div class="alert alert-success alert-dismissible fade show" role="alert">
- <strong> Výborne! </strong> <?php echo "Uspešne sme pridali váš názor" ?>
+ <strong> Výborne </strong> <?php echo "Uspešne sme pridali váš názor" ?>
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button>
@@ -128,7 +129,7 @@ if(empty($chyba)){
 			
 			<div class="form-group ">
 				 <small id="emailHelp" class="form-text text-muted"><b>Správa</b></small>
-				<textarea name="sprava"  cols="98" rows="5" placeholder="Váš text" class="form-control" required><?php echo $sprava ?></textarea>
+				<textarea name="sprava"  cols="98" rows="5" placeholder="Váš text" class="form-control" required> <?php echo $sprava ?> </textarea>
 			</div>
 		
 			<div class="form-group">

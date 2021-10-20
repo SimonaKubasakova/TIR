@@ -11,7 +11,7 @@
           <?php
               $aktivnaStranka = basename(dirname($_SERVER['SCRIPT_NAME']));
 
-              $menu = [];
+        //      $menu = [];
 
               $riadky = file('../admin/menuAdmin.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES); 
 

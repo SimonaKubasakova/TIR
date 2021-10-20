@@ -1,0 +1,13 @@
+git init -> načíta 
+git add . -> pridá všetly súbory do stage
+git commit -m "nazov" -> vytvorí novú úpravu do TIMELINE
+git status  -> ukaže úpravy
+git log -> ukkaze uzivatela
+git config --list 
+git config --user.name=nazov -> zmení meno užívateľa
+git push origin -> úpravy hodí na github
+git branch -M main 
+ git config --global --list ->  
+
+
+ view commonad pallet git cheatsheet

@@ -1,3 +1,4 @@
+
 <section class="container-fluid bg-dark">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark container sticky-top">
     <a class="navbar-brand" href="#">Spojená škola Tvrdošín</a>
@@ -10,8 +11,6 @@
 
           <?php
               $aktivnaStranka = basename(dirname($_SERVER['SCRIPT_NAME']));
-
-              $menu = [];
 
               $riadky = file('../../assets/menu.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES); 
 
@@ -31,3 +30,6 @@
      </div>
   </nav>
 </section>
+
+
+ 
